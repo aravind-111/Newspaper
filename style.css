@@ -1,0 +1,87 @@
+.main_container {
+  background: rgb(226, 225, 225);
+  padding: 2rem;
+  margin-top: 0.5rem;
+}
+.top {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  /* padding: 2 rem; */
+}
+.top_left,
+.top_right {
+  /* padding: 5px; */
+  background: rgb(201, 201, 201);
+  width: 20rem;
+  height: 9rem;
+  display: flex;
+  text-align: justify;
+}
+.top_middle {
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+}
+.details {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding: 0.3rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.main_content {
+  display: grid;
+  grid-template-columns: 70fr 30fr;
+  margin-top: 1rem;
+  /* padding: 2rem; */
+}
+.electric_cars,
+.middle_content {
+  border-bottom: 1px solid black;
+}
+.middle_content {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-rows: 50fr 50fr;
+}
+.middle_content_first_row,
+.middle_content_second_row {
+  display: grid;
+  grid-template-columns: 50fr 50fr;
+}
+
+.first_row_first_column_content,
+.bottom_content_text {
+  display: flex;
+}
+
+.main_content_right {
+  display: grid;
+  grid-template-rows: 60fr 40fr;
+}
+
+.main_content_right_bottom {
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 2rem;
+}
+
+.main_content_left {
+  margin-right: 2rem;
+}
+
+.footer {
+  /* margin: -1rem; */
+  margin-right: -2rem;
+  margin-bottom: -2rem;
+  margin-left: -2rem;
+  color: whitesmoke;
+  height: 3rem;
+  background-color: rgb(44, 43, 43);
+  padding: 0.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
